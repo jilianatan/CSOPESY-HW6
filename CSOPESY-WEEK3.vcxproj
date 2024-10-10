@@ -129,11 +129,15 @@
   <ItemGroup>
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="ConsoleManager.cpp" />
+    <ClCompile Include="fcfs_scheduler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="process.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Console.h" />
     <ClInclude Include="ConsoleManager.h" />
+    <ClInclude Include="fcfs_scheduler.h" />
+    <ClInclude Include="process.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
