@@ -1,37 +1,53 @@
-#pragma once
-
 #include "process.h"
-#include <queue>
-#include <thread>
-#include <vector>
-#include <atomic>
-#include <mutex>
-#include <condition_variable>
-#include <list>
+#include <iomanip>
+#include <ctime>
+#include <sstream> // Ensure this header is included
+#include <iostream>
 
-class FCFS_Scheduler {
-private:
-    std::queue<Process*> process_queue;
-    std::vector<std::thread> cpu_threads;
-    std::atomic<bool> running;
-    std::mutex mtx;
-    std::condition_variable cv;
-    int num_cores;
-    std::list<Process*> running_processes;
-    std::list<Process*> finished_processes;
+int Process::next_process_id = 1; // Initialize static member for unique process id
+Process::Process(const std::string& pname, int commands)
+    : name(pname), total_commands(commands), executed_commands(0), core_id(-1), process_id(next_process_id++) {
+    log_file.open(name + ".txt", std::ios::out | std::ios::app);
+    log_file << "Process name: " << name << "\nLogs:\n";
+    start_time = std::chrono::system_clock::now();
+}
 
-    void cpu_worker(int core_id);
+Process::~Process() {
+    log_file.close();
+}
 
-public:
-    FCFS_Scheduler(int cores);
-    ~FCFS_Scheduler();
+std::string Process::get_start_time() const {
+    auto now = std::chrono::system_clock::to_time_t(start_time);
+    std::tm local_tm;
+    localtime_s(&local_tm, &now);
+    std::ostringstream oss;
+    oss << std::put_time(&local_tm, "%m/%d/%Y %I:%M:%S%p");
+    return oss.str();
+}
 
-    void add_process(Process* proc);
-    void start();
-    void stop();
-    void screen_ls();
-    void print_running_processes();
-    void print_finished_processes();
-    void print_process_details(const std::string& process_name, int screen);
-    void print_process_queue_names();
-};
+std::string Process::get_status() const {
+    std::ostringstream oss;
+    if (executed_commands == total_commands) {
+        oss << "Finished " << total_commands << "/" << total_commands;
+    }
+    else {
+        oss << "Core: " << (core_id == -1 ? "N/A" : std::to_string(core_id)) << " " << executed_commands << " / " << total_commands;
+    }
+    return oss.str();
+}
+void Process::displayProcessInfo() const {
+    //print the process information
+
+    std::cout << "Process name: " << name << "\n";
+    std::cout << "Process ID: " << process_id << "\n\n";
+
+    if (executed_commands < total_commands) {
+        std::cout << "Current Instruction Line: " << executed_commands << "\n";
+        std::cout << "Lines of Code: " << total_commands << "\n";
+
+    }
+    else {
+        std::cout << "Finished!\n";
+    }
+
+}

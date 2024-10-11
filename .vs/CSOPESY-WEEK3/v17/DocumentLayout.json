@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:fcfs_scheduler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:fcfs_scheduler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{07B9B1EB-B6F4-47F4-9825-376E1AA701AE}|CSOPESY-WEEK3.vcxproj|solutionrelative:fcfs_scheduler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "process.h",
-              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h",
-              "RelativeDocumentMoniker": "process.h",
-              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h",
-              "RelativeToolTip": "process.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-10T14:18:33.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "process.cpp",
-              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.cpp",
-              "RelativeDocumentMoniker": "process.cpp",
-              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.cpp",
-              "RelativeToolTip": "process.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-10T14:17:44.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "fcfs_scheduler.h",
-              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h",
-              "RelativeDocumentMoniker": "fcfs_scheduler.h",
-              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h",
-              "RelativeToolTip": "fcfs_scheduler.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-10T14:16:48.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ConsoleManager.cpp",
               "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\ConsoleManager.cpp",
               "RelativeDocumentMoniker": "ConsoleManager.cpp",
@@ -96,7 +57,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T14:15:55.515Z",
               "EditorCaption": ""
@@ -109,9 +70,48 @@
               "RelativeDocumentMoniker": "fcfs_scheduler.cpp",
               "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.cpp",
               "RelativeToolTip": "fcfs_scheduler.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKYAAAABAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-10T14:15:31.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fcfs_scheduler.h",
+              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h",
+              "RelativeDocumentMoniker": "fcfs_scheduler.h",
+              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\fcfs_scheduler.h",
+              "RelativeToolTip": "fcfs_scheduler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-10T14:16:48.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "process.cpp",
+              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.cpp",
+              "RelativeDocumentMoniker": "process.cpp",
+              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.cpp",
+              "RelativeToolTip": "process.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-10T14:17:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "process.h",
+              "DocumentMoniker": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h",
+              "RelativeDocumentMoniker": "process.h",
+              "ToolTip": "C:\\Users\\Jorolato\\Documents\\GitHub\\CSOPESY-HW6\\process.h",
+              "RelativeToolTip": "process.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-10T14:18:33.254Z",
               "EditorCaption": ""
             }
           ]
